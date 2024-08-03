@@ -1,0 +1,25 @@
+/* src/Dashboard.css */
+.dashboard-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping if necessary */
+  gap: 20px; /* Space between the cards */
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  flex: 1 1 calc(33.333% - 20px); /* Three cards in a prow with space between */
+  height: 600px; /* Adjust height for charts */
+  width: 400px; /* Ensure a minimum width */
+  overflow: hidden; /* Prevent overflow of content */
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}

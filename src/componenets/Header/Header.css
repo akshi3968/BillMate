@@ -1,0 +1,47 @@
+/* Header.css */
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed; /* Keep navbar fixed at the top */
+  width: 100%; /* Make navbar full width */
+  top: 0; /* Align navbar to the top */
+  left: 0; /* Align navbar to the left */
+  z-index: 1000; /* Ensure the navbar is on top of other content */
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.Navbar a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.Navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.Navbar li {
+  margin: 0 10px;
+}
+.Navbar .logo{
+color: #4c7faf;
+font-weight: bolder;
+}

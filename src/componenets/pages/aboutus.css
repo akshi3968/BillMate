@@ -1,0 +1,226 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    color: #3d3d3d; /* Dark grey for text */
+    background-color: #f0f0f0; /* Very light grey background */
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4b4b4b; /* Dark grey with a bit of warmth */
+    color: #e2e2e2; /* Light grey text */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.member{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border-radius: 50%; */
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+}
+.member img{
+    width: 150px;
+    height: 150px;
+}
+
+.hero-content {
+
+    max-width: 800px;
+    padding: 0 1rem;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff; /* White for emphasis */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #cfcfcf; /* Soft light grey */
+}
+
+/* About Section */
+.about {
+    background: #f5f5f5; /* Light grey */
+    padding: 4rem 1rem;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about .content {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.about .content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2f2f2f; /* Dark grey */
+}
+
+.about .content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #595959; /* Medium grey */
+}
+
+.about .image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Values Section */
+.values {
+    background: #d9d9d9; /* Light, slightly warm grey */
+    padding: 4rem 1rem;
+}
+
+.values .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2f2f2f; /* Dark grey */
+}
+
+.values-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.value-item {
+    flex: 1;
+    margin: 0 1rem;
+    background: #f0f0f0; /* Very light grey */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.value-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2f2f2f; /* Dark grey */
+}
+
+.value-item p {
+    font-size: 1rem;
+    color: #595959; /* Medium grey */
+}
+
+/* Team Section */
+.team {
+    background: #cccccc; /* Warm grey */
+    padding: 4rem 1rem;
+    color: #2f2f2f; /* Dark grey text */
+}
+
+.team .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2f2f2f; /* Dark grey */
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    flex: 1;
+    margin: 1rem;
+    max-width: 250px;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #2f2f2f; /* Dark grey border */
+}
+
+.member h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #2f2f2f; /* Dark grey */
+}
+
+.member p {
+    font-size: 1rem;
+    color: #595959; /* Medium grey */
+}
+
+/* Footer Section */
+footer {
+    background: #2f2f2f; /* Dark grey */
+    color: #e2e2e2; /* Light grey text */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-media li {
+    margin: 0 0.5rem;
+}
+
+footer .social-media li a {
+    color: #b3b3b3; /* Light grey for icons */
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-media li a:hover {
+    color: #d6d6d6; /* Slightly lighter grey on hover */
+}
